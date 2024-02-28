@@ -1,0 +1,61 @@
+.block{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  width: 600px;
+  height: 50px;
+  border: 2px;
+  margin: 20px 0 0 0;
+}
+.del{
+  width: 43px;
+  height: 43px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.save{
+  width: 168px;
+  height: 50px;
+  border-radius: 224px;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: aliceblue;
+  background: #232222;
+  margin: 20px 0 0 0;
+}
+.return{
+  display: flex;
+  width: 800px;
+  height: 70px;
+  border: 3px solid;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 33px 0 20px 0;
+}
+.todo{
+  width: 149px;
+  height: 23px;
+  top: 193px;
+  left: 440px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.but{
+  margin: 0 20px 0 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
